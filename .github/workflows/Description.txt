@@ -1,0 +1,22 @@
+//nothing
+
+## Inspiration 
+The inspiration behind this project was from the movie Iron Man and how Jarvis was an AI machine for Tony Stark. We felt inspired by that and decided to name our AI machine Jarvis for that reason, although our AI machine accomplishes different tasks.
+
+## What it does
+Jarvis is an AI machine that responds to the users' commands and has a variety of tasks it can do. It also has the ability to learn new information and remember it for the user if it does not already know the given information. It works simultaneously alongside its brain and keywords as a way to find a solution or output for the input provided by the user. If Jarvis is incapable of finding a proper response to the input provided by the user, then Jarvis requests the user to provide the answer to the question as a way for it to learn and remember for future references. Also, if the user does not know the answer and Jarvis cannot provide a sufficient output, then the user can request Jarvis to google the question as a way to resolve the problem. If the user wishes to, they can provide the answer to Jarvis after finding a sufficient enough answer from the website: google.
+
+## How we built it
+We created several methods and manipulated Arraylists to hold each line from the keywordsForAI.txt as a way for Jarvis to match the input with the keywords that activate the pre-programmed methods. The list contains the keywords in the form capitalized, alongside the capitalization of the input, to eliminate any problems. Due to both the keywords from the line of the keyWordsForAI.txt and the input are placed in an array; spaces are eliminated when matching with the input and keywords. If the words match with the input, Jarvis will look at the end of the keywords array since the element of the array will contain which pre-programmed method should activate. If none of the keywords match, then Jarvis looks inside of its brain to match the information with the input provided by the user. If neither the keywords nor the information stored in Jarvis matches the input provided by the user, then Jarvis will request the user to provide an answer to the question for future references. Jarvis will take the answer provided by the user and then collect the already stored information inside Jarvis' brain and rewrite the file to contain the question and the answer provided by the user for future references.
+
+## Challenges 
+Most of the team members are not familiar with importing external libaraies and utilize them. We  must practice and test each of the unqiue commands within the limited time.
+
+## Accomplishments that I'm proud of
+We're proud of the fact that our Jarvis AI can Google information when prompted to simply due to the fact that it was something none of us knew how to do. We found the import statements required and incorporated it within our program with some hiccups along the way being that this was our first time utilizing it. Another accomplishment we're proud of is our program's ability to self learn. In order for our AI machine to 
+
+## What I learned
+We learned how to implement and create interactions between unique external libaraies. This ability allows Jarvis to perform out of the scope of the orginal commands.
+
+## What's next for Jarvis AI
+We are trying to implement methods that can acitivate Jarvis by sound or voices and not only limited to commands. This opens up countless opportunities for the future development. We also want to create a sound library for jarvis so that we can control its volume or sound effects. We want to incorprate more API and link more useful and meaning activity to Jarvis while save as much run time memeory as possible.
